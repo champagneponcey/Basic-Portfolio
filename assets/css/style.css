@@ -52,7 +52,18 @@ h1 {
     height: 75px;
    	margin-right: 500px;
    	padding-top: 20px;
+}
 
+.one {
+	display: inline-block;
+    width: 1000px;
+    height: 75px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.two {
+	width: 1000px;
 }
 
 h4 {
