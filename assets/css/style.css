@@ -105,10 +105,11 @@ h5 {
 	margin-bottom: 10px;
 }
 
-.border2 #foot {
+/*.border3 {*/
 	margin: 0px;
-	position: absolute;
+	position: relative;
 	width: 100%;
+
 }
 
 #line {
@@ -127,10 +128,6 @@ footer {
 	width: 1425px;
 }
 
-
-
-
-/* About */
 .me {
 	display: inline-block;
     width: 70%;
@@ -142,6 +139,10 @@ footer {
 	background-color: #ffffff;
 
 }
+
+
+/* About */
+
 
 #about {
     width: 500px;
