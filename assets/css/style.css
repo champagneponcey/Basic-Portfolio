@@ -1,5 +1,10 @@
+*{
+	box-sizing: border-box;
+}
+
 .container {
 	background-image: url("http://i.imgur.com/RsbysQo.png");
+	height: 1000px;
 }
 
 header {
@@ -17,7 +22,7 @@ h1 {
 	background-color: #4aaaa5;
 	margin-left: 50px;
 	margin-bottom: 0px;
-	padding: 20px;
+	padding: 30px;
 	color: #eeeeee;
 	font-size: 40px;
 	text-align: center;
@@ -28,9 +33,11 @@ ul {
 	float: right;
 	padding-top: 25px;
 	margin-right: 200px;
+	display: inline;
+	margin-bottom: 0px;
 }
 
-li{
+li {
 	border-right: 1px solid #bbb;
 }
 
@@ -47,6 +54,8 @@ li a {
 	display: inline;
 }
 
+
+
 #contact {
 	display: inline;
 }
@@ -55,21 +64,27 @@ li a {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin-top: 191px;
 	float: bottom;
+	width: auto;
+	height: 1000px;
 }
 
 .me {
 	display: inline-block;
     width: 600px;
-    height: 50px;
-    margin-left: 20px;
-    max-width: 800px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 1000px;
     padding-top: 0px;
+	background-color: #ffffff;
+
 }
 
 h4 {
 	color: #4aaaa5;
-	font-size: 26px;
+	font-size: 30px;
 	margin-left: 30px;
+	bottom-border: 2px #dddddd;
 }
 
 #about {
@@ -80,42 +95,75 @@ h4 {
 }
 
 #pic {
-    margin-left: 30px;
+    margin-left: 50px;
     width: 19%;
     height:200px;
 }
 
 .social {
 	float: right;
-	height: 100px;
+	height: 150px;
 	background: #ffffff;
 	padding: 20px;
-	margin-right: 50px;
-	margin-top: 20px;
 }
 
 h5 {
-	border-bottom: 2px #dddddd;
+	border: 2px #dddddd;
+	font-size: 20px;
 }
 
-.icons {
-	z-index: 1;
+.Portfolio {
+    position: relative;
+	margin: 10px;
+	height: auto;
+	background-color: black;
 }
 
-.one {
-	display: inline-block;
-    width: 1000px;
-    height: 75px;
-    margin: 0px;
-    padding: 0px;
+.icon a{
+	display: flex;
+	height: 48px;
+	width: 48px;
+}
+
+a {
+	display: flex;
 }
 
 .two {
-	width: 1000px;
+	
 }
 
 form {
 	color: #777777;
+	margin-left: 30px;
+}
+
+.grandparent {
+	display: inline-flex;
+	width: 800px;
+	height: 650px;
+	padding: 20px;
+	position: relative;
+	margin-left: 5px;
+}
+
+.child {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	bottom: 0;
+	margin-bottom: 10px;	
+	padding: 10px;
+	opacity: .8;
+	background-color: #4aaaa5; 
+
+}
+
+.child p {
+	color: #cccccc;
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #line {
@@ -129,6 +177,6 @@ footer {
 	background-color: #4aaaa5;
 	padding: 20px;
 	color: #dddddd;
-	border-top: 2px;
+	border-top: 2px #dddddd;
 }
 
