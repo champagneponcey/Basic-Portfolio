@@ -5,8 +5,9 @@
 
 .container {
 	background-image: url("http://i.imgur.com/RsbysQo.png");
-	height: 800px;
-	width: auto;
+	/*height: 800px;*/
+	height: 100%;
+	width: 100%;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 	color: #4aaaa5;
 	float: left;	
 	display: inline;
-	width: 1425px;
+	width: 100%;
 	padding-bottom: 0px;
 	border: 2px;
 	top: 0px;
@@ -47,6 +48,7 @@ li {
 	padding-right:8px;
 	padding-left: 3px;
 	position: relative;
+	right: 5%;
 	margin-bottom: 0px;
 }
 
@@ -72,7 +74,7 @@ h4 {
 
 .social {
 	position: absolute;
-	right: 10%;
+	right: 5%;
 	top: 21%;
 	height: 150px;
 	background: #ffffff;
@@ -82,8 +84,11 @@ h4 {
 
 h5 {
 	font-size: 20px;
-	margin-bottom: 0px;
-	padding: 10px;
+	/*margin-bottom: 0px;*/
+	padding: 0px;
+	margin-top: 33px;
+	margin-bottom: 3px;
+
 }
 
 .icon {
@@ -94,21 +99,23 @@ h5 {
 
 .border1 {
 	background: #dddddd;
-	height: 3px;
+	height: 5px;
 	margin: 132px 0 20px 0;
 }
 
 .border2 {
 	background: #dddddd;
-	height: 3px;
+	height: 5px;
 	margin: 0px;
 	margin-bottom: 10px;
 }
 
-/*.border3 {*/
+.border3 {
+	background: #dddddd;
+	height: 5px;
 	margin: 0px;
 	position: relative;
-	width: 100%;
+	width: 150%;
 
 }
 
@@ -124,19 +131,22 @@ footer {
 	background-color: #4aaaa5;
 	padding: 20px;
 	color: #dddddd;
-	border-top: 2px #dddddd;
-	width: 1425px;
+	width: 150%;
+	margin-top: 0px;
 }
 
 .me {
 	display: inline-block;
-    width: 70%;
+    width: 65%;
     height: 75%
     margin-left: 50px;
     margin-top: 20px;
     padding-top: 0px;
     padding-bottom: 50px;
 	background-color: #ffffff;
+	margin-bottom: 20px;
+	position: relative;
+	top: 21%;
 
 }
 
@@ -160,6 +170,7 @@ footer {
 form {
 	margin-top: 27px;
 	color: #777777;
+	margin-left: 30px;
 }
 
 input, textarea {
@@ -204,8 +215,7 @@ textarea {
 
 .grandparent {
 	display: inline-flex;
-	width: 800px;
-	height: 320px;
+	width: 60%;
 	padding: 20px;
 	position: relative;
 	margin-bottom: 10px;
@@ -216,7 +226,7 @@ textarea {
 	width: 100%;
 	height: 50px;
 	position: absolute;
-	top: 90%;
+	top: 70%;
 	/*bottom: 50%;*/
 	/*margin-bottom: 10px;	*/
 	/*padding: 10px;*/
@@ -230,5 +240,10 @@ textarea {
 	text-align: center;
 	margin-top: 15px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img.portfoliopic {
+	width: 250px;
+
 }
 
